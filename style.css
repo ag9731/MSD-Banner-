@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+}
+.banner-text{
+    position: absolute;
+    align-items: center;
+    color:yellow
+}
+.container{
+    width:100%;
+    height:100vh;
+    
+}
+.banner{
+    
+    background-image: url(https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2021/09/14073840/ms-dhoni-1625654692.jpg);
+    width:100%;
+    height:90vh;
+    background-size: cover;
+    background-position: 100%;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    position: fixed;
+
+}
+.banner-text{
+    margin-top:100px
+}
+.banner-text h2{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size:25px;
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+    text-align: center;
+
+}
+.banner-text h1{
+    margin-left:5px;
+    font-size: 100px;
+    color:rgb(255, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    
+}
+#btn{
+    width: 130px;
+    height: 35px;
+    font-weight: bold;
+    background-color:aqua;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color:blue;
+    border-radius: 20px;
+    border:none;
+    cursor:pointer;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+}
+@media(max-width:1000px)
+{
+    .banner{
+    
+        background-image: url(https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2021/09/14073840/ms-dhoni-1625654692.jpg);
+        width:100%;
+        height:40vh;
+        background-size: cover;
+        background-position: 100%;
+        border-radius: 10px;
+        /* margin-top: 50px; */
+        position: fixed;
+    
+    }
+    .banner-text h1{
+        margin-left:5px;
+        font-size: 30px;
+        color:yellow;
+        text-align: center;
+        
+    } 
+    .banner-text h2{
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-size:15px;
+        color:yellow;
+        margin-top:25px;
+        text-align: center;
+    }
+    #btn{
+        width: 130px;
+        height: 35px;
+        font-weight: bold;
+        background-color:aqua;
+        letter-spacing: 3px;
+        margin-left: 50px;
+        color:blue;
+        border-radius: 20px;
+        border:none;
+        cursor:pointer;
+        
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width:400px)
+{
+    .banner{
+    
+        background-image: url(https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2021/09/14073840/ms-dhoni-1625654692.jpg);
+        width:100%;
+        height:50vh;
+        background-size: cover;
+        background-position: 60%;
+        border-radius: 10px;
+        /* margin-top: 50px; */
+        position: fixed;
+    
+    }
+    .banner-text h1{
+        margin-left:5px;
+        font-size: 20px;
+        color:yellow;
+        text-align: center;
+        margin-bottom: 5px;
+        
+    } 
+    .banner-text h2{
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-size:15px;
+        color:yellow;
+        /* margin-top:25px; */
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    #btn{
+        width: 130px;
+        height: 35px;
+        font-weight: bold;
+        background-color:aqua;
+        letter-spacing: 3px;
+        margin-left: 50px;
+        color:blue;
+        border-radius: 20px;
+        border:none;
+        cursor:pointer;
+        margin-top:30px;
+        
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top:5px;
+    }
+}
